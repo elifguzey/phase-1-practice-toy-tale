@@ -1,4 +1,9 @@
 let toyContainer = document.querySelector("#toy-collection");
+let divCard = document.createElement("div")
+divCard.setAttribute("class", "card")
+toyContainer.append(divCard);
+console.log(divCard);
+
 
 fetch("http://localhost:3000/toys")
 .then(res => res.json())
@@ -6,13 +11,14 @@ fetch("http://localhost:3000/toys")
   renderToyCards(data);
 })
 function renderToyCards(toys) {
-  // let divCard = document.createElement("div")
-  toys.forEach(createElement("div"))
+
+  console.log(toys);
+  
+  // toys.forEach(
 }
 
 
-// divCard.setAttribute("class", "card")
-// toyContainer.append(divCard);
+
 
 // let h2 = document.createElement("h2")
 // // h2.innerText = toys.name
