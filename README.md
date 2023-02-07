@@ -20,7 +20,7 @@ need to:
 
 1. Access the list of toys from an API (mocked using JSON Server) and render
    each of them in a "card" on the page
-2. Hook up a form that enables users to add new toys. Create an event listener
+2. Hook up a fo`rm that enables users to add new toys. Create an event listener
    so that, when the form is submitted, the new toy is persisted to the database
    and a new card showing the toy is added to the DOM
 3. Create an event listener that gives users the ability to click a button to
